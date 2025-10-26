@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cart</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/Cart 2.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+  <nav>
+    <!-- 1 LOGO -->
+    <div>
+      <h3>Logo</h3>
+    </div>
+    <!-- 2 links -->
+    <div class="links">
+      <a href="./home.html">Home</a>
+      <a href="#">Cart</a>
+      <a href="./wishlist.html">Favorites</a>
+      <a href="./home.html.#contact-us" target="_self">Contact Us</a>
+    </div>
+    <div class="navbar-icon">
+      <a href="#">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cartNumber" id="cartCount">0</span>
+      </a>
+      <a href="./wishlist.html">
+        <i class="fa-solid fa-heart"></i>
+        <span class="favoriteNumber">0</span>
+      </a>
+    </div>
+    <div>
+      <a class="button" href="./login.html">Logout</a>
+    </div>
+  </nav>
+  <div class="all">
+    <div class="cart-container">
+      <div class="cartpage">
+        <h2>Cart</h2>
+        <button onclick="window.location.href='./home.html'">Continue shopping</button>
+      </div>
+      <div class="line">
+        <h2 class="h1">product</h2>
+        <h3 class="h2">quantity</h3>
+        <h2 class="h4">price</h2>
+      </div>
+      <hr />
+      <div class="container4">
+        <div class="container2">
+          <img src="../images/imgs/Bracelet/bracelet 1.jpg" alt="bracelet" />
+          <div class="container3">
+            <h3>Delicate Link Bracelet </h3>
+            <h3>gold</h3>
+          </div>
+        </div>
+        <div class="container5">
+          <div class="minus-btn"><i class="fa-solid fa-minus"></i></div>
+          <div class="quantity">1</div>
+          <div class="plus-btn"><i class="fa-solid fa-plus"></i></div>
+          <div class="basket" onclick="window.location.href='./cart 1.html'">
+            <i class="fa-solid fa-trash" style="color: #f53d7d;"></i>
+          </div>
+        </div>
+        <div>
+          <h4 class="original-price" data-unit-price="70">70 L.E</h4>
+        </div>
+      </div>
+
+      <div class="price">
+        <div class="pricecard">
+          <div class="pricecard-flex-section">
+            <h2>Total:</h2>
+            <h3 class="total">70 L.E</h3>
+          </div>
+          <button onclick="window.location.href='./login.html'">Check out</button>
+          <h5>Taxes and shipping calculated at checkout</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Copy Right 2025 @Divmond Gallery </p>
+    <a href="./Terms&conditins.html">Terms & conditions</a>
+    <a href="./privacy&policy.html">Privacy policy</a>
+    <a href="./Return policy.html">Return policy</a>
+    <a href="./Track.html">Track your order</a>
+  </footer>
+  <script src="../js/Cart.js"></script>
+  <script src="../js/Main.js"></script>
+</body>
+
+</html>

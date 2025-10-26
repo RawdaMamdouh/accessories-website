@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earrings</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/Products.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+  <nav>
+    <!-- 1 LOGO -->
+    <div>
+      <h3>Logo</h3>
+    </div>
+    <!-- 2 links -->
+    <div class="links">
+      <a href="./home.html">Home</a>
+      <a href="./cart 1.html">Cart</a>
+      <a href="./wishlist.html">Favorites</a>
+      <a href="./home.html.#contact-us" target="_self">Contact Us</a>
+    </div>
+    <div class="navbar-icon">
+      <a href="./cart 1.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cartNumber" id="cartCount">0</span>
+      </a>
+      <a href="./wishlist.html">
+        <i class="fa-solid fa-heart"></i>
+        <span class="favoriteNumber">0</span>
+      </a>
+    </div>
+    <div>
+      <a class="button" href="./login.html">Logout</a>
+    </div>
+  </nav>
+  <div class="all">
+    <div id="section1">
+      <div class="accessories2">
+        <img src="../images/imgs/Earrings/earrings 6.jpeg" alt="image" id="mainImage">
+        <div class="divs">
+          <div class="star-section">
+            <h2 class="title" id="mainTitle">Delicate Link Bracelet </h2>
+            <div class="stars">
+              <i class="far fa-star StarIcon"></i>
+              <i class="far fa-star StarIcon"></i>
+              <i class="far fa-star StarIcon"></i>
+              <i class="far fa-star StarIcon"></i>
+              <i class="far fa-star StarIcon"></i>
+            </div>
+          </div>
+          <h2 class="mainPrice" id="mainPrice">180 L.E</h2>
+          <h3 id="mainColor">Color:gold</h3>
+          <p>up to 30% off</p>
+          <p class="phrase">20-days Returns:stores credit</p>
+          <button class="add" onclick="window.location.href='./cart 2.html'" id="addToCartBtn">
+            <h3 style="color: white;">Add to cart</h3>
+          </button>
+          <div class="heart"><i class="fa-regular fa-heart" id="heartIcon"></i></div>
+          <button class="buy" onclick="window.location.href='./payment.html'">
+            <h3 style="color: white;"> Buy Now</h3>
+          </button>
+          <h2>about this item</h2>
+          <p>Delicate and Luxurious: The design balances the daintiness of the thin bands and the subtle
+            shine of the stones with<br> the luxury conveyed by the gold-toned metal and the distinctive design of the
+            lower part.<br> Eye-Catching and Attractive: Wearing two rings together in this manner creates a unique and
+            noticeable look.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2>Customers reviews</h2>
+    <p style="opacity: 60%;"> Here what are customer say</p><br>
+    <div class="review">
+      <textarea cols="130" rows="6" placeholder="Enter your review" id="textarea"></textarea>
+      <button type="submit" value="submit" onclick="clearText()"> submit</button>
+    </div>
+    <br><br>
+    <h2 class="he">you may also like</h2>
+    <div class="product-card-flex">
+      <div class="product-Card" data-image="../images/imgs/Earrings/earrings 5.jpg" data-price="90 L.E"
+        data-title="Cluster Earrings" data-color="gold">
+        <div class="productImage">
+          <img src="../images/imgs/Earrings/earrings 5.jpg" alt="earrings">
+        </div>
+        <div class="productDetails">
+          <h3 class="productTitle">Cluster Earrings</h3>
+          <div class="productPrice">
+            <span class="current-price">90 L.E</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-Card" data-image="../images/imgs/Earrings/earrings 1.jpg" data-price="100 L.E"
+        data-title="Barbell Earrings" data-color="silver">
+        <div class="productImage">
+          <img src="../images/imgs/Earrings/earrings 1.jpg" alt="earrings">
+        </div>
+        <div class="productDetails">
+          <h3 class="productTitle">Barbell Earrings</h3>
+          <div class="productPrice">
+            <span class="current-price">100 L.E</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-Card" data-image="../images/imgs/Earrings/earrings 4.jpg" data-price="95 L.E"
+        data-title="Bajoran" data-color="gold">
+        <div class="productImage">
+          <img src="../images/imgs/Earrings/earrings 4.jpg" alt="earrings">
+        </div>
+        <div class="productDetails">
+          <h3 class="productTitle">Bajoran</h3>
+          <div class="productPrice">
+            <span class="current-price">95 L.E</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-Card" data-image="../images/imgs/Earrings/earrings 3.jpg" data-price="150 L.E"
+        data-title="Spike Earrings" data-color="gold">
+        <div class="productImage">
+          <img src="../images/imgs/Earrings/earrings 3.jpg" alt="earrings">
+        </div>
+        <div class="productDetails">
+          <h3 class="productTitle">Spike Earrings</h3>
+          <div class="productPrice">
+            <span class="current-price">150 L.E</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-Card" data-image="../images/imgs/Earrings/earrings 2.jpg" data-price="70 L.E"
+        data-title="Dangle Earrings" data-color="gold black">
+        <div class="productImage">
+          <img src="../images/imgs/Earrings/earrings 2.jpg" alt="earrings">
+        </div>
+        <div class="productDetails">
+          <h3 class="productTitle">Dangle Earrings</h3>
+          <div class="productPrice">
+            <span class="current-price">70 L.E</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Copy Right 2025 @Divmond Gallery </p>
+    <a href="./Terms&conditins.html">Terms&conditions</a>
+    <a href="./privacy&policy.html">privacy policy</a>
+    <a href="./Return policy.html">Return policy</a>
+    <a href="./Track.html">Track your order</a>
+  </footer>
+  <script src="../js/Category.js"></script>
+  <script src="../js/Products.js"></script>
+  <script src="../js/Main.js"></script>
+</body>
+
+</html>

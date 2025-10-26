@@ -1,0 +1,173 @@
+/* Cart Page 2 */
+
+
+.cartpage {
+    display: flex;
+}
+
+.cart-container hr {
+    position: relative;
+    bottom: 20px;
+}
+
+.h4 {
+    position: relative;
+    right: 10%;
+}
+
+.cartpage button {
+    justify-content: center;
+    position: absolute;
+    left: 75%;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(250, 73, 132);
+    border: 0px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cartpage button:hover {
+    transform: scale(1.05);
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.container2 img {
+    width: 200px;
+    height: 250px;
+}
+
+.minus-btn {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantity {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.plus-btn {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5 {
+    display: flex;
+    margin-right: 280px;
+}
+
+.basket {
+    position: relative;
+    bottom: -7px;
+    cursor: pointer;
+}
+
+.price {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+}
+
+.original-price {
+    position: absolute;
+    left: 87%;
+    color: rgb(250, 73, 132);
+    font-weight: bold;
+    font-size: larger;
+    margin: 5px 0;
+}
+
+.pricecard {
+    border: 1px;
+    background-color: rgb(227, 226, 226);
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 3px 10px 3px 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 60%;
+    bottom: 100px;
+    top: 1px;
+}
+
+.pricecard button {
+    background-color: #000001;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.pricecard h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricecard button:hover {
+    transform: scale(1.02);
+}
+
+.pricecard h5 {
+    position: relative;
+    left: 15%;
+}
+
+.pricecard-flex-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricecard-flex-section h3 {
+    margin-top: 20px;
+}
+
+.pricecard-flex-section h2 {
+    margin-top: 20px;
+}

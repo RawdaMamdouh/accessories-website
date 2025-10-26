@@ -1,0 +1,252 @@
+/* Home Page */
+/* header */
+.pacifico-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-img {
+    background-image: url(../images/imgs/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin-top: -30px;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    top: 120px;
+}
+
+.header-content h2 {
+    font-size: 60px;
+    margin-left: 50px;
+    max-width: 450px;
+}
+
+/* category section */
+.category-section h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.category-flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.category-flex-section .category-card {
+    width: 550px;
+    margin: 10px 0;
+    border: 0;
+}
+
+.category-card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.category-flex-section .category-card img {
+    width: 80px;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+.category-flex-section .category-card h4 {
+    margin-left: 10px;
+    color: grey;
+}
+
+.category-flex-section h4:hover {
+    color: #EC346E;
+}
+
+/* product section */
+.product-flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: auto;
+}
+
+.product-card {
+    border: 0.5px solid gray;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 7px;
+    width: 300px;
+}
+
+.product-card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.product-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 15px;
+}
+
+.product-title {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-weight: normal;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #EC346E;
+}
+
+/***contact***/
+.contact{
+    margin: 0 0;
+    padding: 0 0;
+}
+.contact-container{
+    width: 80%;
+    display: block;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px; 
+    margin-bottom: 50px;  
+    margin:  auto;
+}
+.contact-heading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contact-heading span{
+    color:#EC346E;
+    font-family: "Amatic SC", sans-serif;
+}
+.contact-heading h2{
+    color: #ACAEB0;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.contact-heading p{
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    color: #212529;
+}
+.details{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.details h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.icon i{
+    background-color: #f4f4f4bd;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    color:#EC346E;
+     font-size: 18px;
+    border-radius: 25px;
+    transition: all 0.4ms;
+}
+.icon :hover{
+ background-color: #EC346E;
+ color: white;
+}
+
+.email{
+    background-color: #F5F5F5;
+    margin: 0 0;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.email a{
+    color: #EC346E;
+}
+.phone{
+    background-color: #F5F5F5;
+    margin: 0 0;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.phone a{
+    color: #EC346E;
+}
+.data2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.name {
+    margin-right: 20px;
+}
+
+.contact-input { 
+    width: 464px;
+    padding: 5px;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mapImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn {
+    margin-left: 14%;
+    margin-top: 20px;
+    background-color: #EC346E;
+    border: transparent;
+    color: white;
+    padding: 5px;
+    position: relative;
+    left: 30%;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}

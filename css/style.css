@@ -1,0 +1,133 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* Navbar */
+nav {
+    background: #EC346E;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+
+.links a:hover {
+    color: #FADAEB;
+    cursor: pointer;
+}
+
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 18px;
+    position: relative;
+}
+
+.links a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+a.button {
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+a.button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.navbar-icon {
+    display: flex;
+}
+
+.navbar-icon a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.cartNumber {
+    background-color: red;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-55%, -55%);
+    color: white;
+    padding: 1px 5px;
+}
+
+.favoriteNumber {
+    background-color: red;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-55%, -55%);
+    color: white;
+    padding: 1px 5px;
+}
+
+.favoriteBtn {
+    border: 0;
+    background-color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #EC346E;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin: 16px 0;
+}
+
+.footer a:hover {
+    color: #FADAEB;
+    cursor: pointer;
+}

@@ -1,0 +1,142 @@
+/* Products Page */
+
+.all {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.product-card-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.product-Card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.product-Card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.productImage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.accessories2 img {
+    width: 300px;
+    padding: 6px 60px 60px 4px; 
+    height: 420px;
+}
+
+.accessories2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.divs h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.star-section {
+    display: flex;
+}
+
+.stars {
+    position: relative;
+    display: inline-flex;
+    left: 10%;
+    color: rgb(250, 73, 132);
+    cursor: pointer;
+    margin-top: 19px;
+}
+
+.phrase {
+    opacity: 70%;
+}
+
+.divs button {
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+
+.heart {
+    color: black;
+    display: inline-flex;
+    position: relative;
+    left: 62%;
+    bottom: 7%;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add {
+    background-color: rgb(250, 73, 132);
+    border: 0px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.add:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.buy {
+    margin-top: -30px;
+    background-color: rgb(22, 24, 26);
+    border: 0px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.divs p {
+    max-width: 500px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 80px;
+    flex-direction: column;
+}
+
+.review button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 73, 132);
+    border-color: rgb(250, 73, 132);
+    border-radius: 4px;
+    color: white;
+    position: relative;
+    right: -450px;
+    top: 10px
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+/* Track Page */
+
+
+.all {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.track-head {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+    left: 450px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.track-head h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.track-head h3,
+.track-head h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.track-input {
+    width: 300px;
+    max-width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.fill button {
+    background-color: #EC346E;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.fill button:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,53 @@
+/* Category Page */
+
+
+.accessories {
+    margin: 30px;
+
+}
+
+.product-flex-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 80px;
+}
+
+.productCard {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.productCard:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.productImage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.productDetails {
+    padding: 15px;
+}
+
+.productTitle {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #333;
+    font-weight: normal;
+}
+
+.productPrice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: rgb(250, 73, 132);
+}

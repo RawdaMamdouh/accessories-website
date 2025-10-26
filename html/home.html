@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/Home.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav>
+    <!-- 1 LOGO -->
+    <div>
+      <h3>Home</h3>
+    </div>
+    <!-- 2 links -->
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="./cart 1.html">Cart</a>
+      <a href="./wishlist.html">Favorites</a>
+      <a href="#contact-us" target="_self">Contact Us</a>
+    </div>
+    <div class="navbar-icon">
+      <a href="./cart 1.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cartNumber" id="cartCount">0</span>
+      </a>
+      <a href="./wishlist.html">
+        <i class="fa-solid fa-heart"></i>
+        <span class="favoriteNumber">0</span>
+      </a>
+    </div>
+    <div>
+      <a class="button" href="./login.html">Logout</a>
+    </div>
+  </nav>
+  <!--header-->
+  <header class="header-img">
+    <div class="header-content">
+      <h2 class="pacifico-regular">Beauty is the illumination of your soul</h2>
+    </div>
+  </header>
+  <!-- category section  -->
+  <section class="category-section">
+    <h2>What's in our products</h2>
+    <div class="category-flex-section">
+      <div class="category-card">
+        <a class="ring" href="./Rings category.html" target="_self">
+          <img src="../images/imgs/Rings/ring.jpg" alt="ring">
+          <h4>Rings</h4>
+        </a>
+      </div>
+      <div class="category-card">
+        <a class=" ring" href="./Necklaces category.html" target="_self">
+          <img src="../images/imgs/Necklaces/necklace.jpg" alt="necklace">
+          <h4>Necklaces</h4>
+        </a>
+      </div>
+      <div class="category-card">
+        <a class=" ring" href="./Bracelets category.html" target="_self">
+          <img src="../images/imgs/Bracelet/bracelet.jpeg" alt="bracelet">
+          <h4>Bracelets</h4>
+        </a>
+      </div>
+      <div class="category-card">
+        <a class="ring" href="./Earrings category.html" target="_self">
+          <img src="../images/imgs/Earrings/earrings.jpg" alt="earrings">
+          <h4>Earrings</h4>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- products -->
+  <section class="product-flex-section">
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Necklaces/necklace 2.jpg', 'Square Necklace', '70 L.E', 'gold','necklaces')">
+      <div class="product-image">
+        <img src="../images/imgs/Necklaces/necklace 2.jpg" alt="necklace">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title">Square Necklace</h3>
+        <div class="product-price">
+          <span class="current-price">70 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Bracelet/bracelet 4.jpg', 'Infinity Love Bracelet', '110 L.E', 'gold','bracelets')">
+      <div class="product-image">
+        <img src="../images/imgs/Bracelet/bracelet 4.jpg" alt="bracelet">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Infinity Love Bracelet</h3>
+        <div class="product-price">
+          <span class="current-price">110 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Necklaces/necklace 3.jpg', 'Diamond Halo Pendant', '80 L.E', 'gold','necklaces')">
+      <div class="product-image">
+        <img src="../images/imgs/Necklaces/necklace 3.jpg" alt="necklace">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Diamond Halo Pendant</h3>
+        <div class="product-price">
+          <span class="current-price">80 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Bracelet/bracelet 1.jpg', 'Delicate Link Bracelet', '70 L.E', 'gold','bracelets')">
+      <div class="product-image">
+        <img src="../images/imgs/Bracelet/bracelet 1.jpg" alt="Bracelet">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Delicate Link Bracelet</h3>
+        <div class="product-price">
+          <span class="current-price">70 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Rings/ring 3 .jpg', 'Halo Ring', '70 L.E', 'gold','rings')">
+      <div class="product-image">
+        <img src="../images/imgs/Rings/ring 3 .jpg" alt="ring">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title">Halo Ring</h3>
+        <div class="product-price">
+          <span class="current-price">70 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Earrings/earrings 2.jpg', 'Dangle Earrings', '70 L.E', 'gold','earrings')">
+      <div class="product-image">
+        <img src="../images/imgs/Earrings/earrings 2.jpg" alt="earrings">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title">Dangle Earrings</h3>
+        <div class="product-price">
+          <span class="current-price">70 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Rings/ring 2.jpg', 'Solitaire Ring', '95 L.E', 'gold','rings')">
+      <div class="product-image">
+        <img src="../images/imgs/Rings/ring 2.jpg" alt="ring">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Solitarire Ring</h3>
+        <div class="product-price">
+          <span class="current-price">95 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Necklaces/necklace 5.jpeg', 'Victorian Cameo Necklace', '90 L.E', 'gold','necklaces')">
+      <div class="product-image">
+        <img src="../images/imgs/Necklaces/necklace 5.jpeg" alt="necklace">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Victorian Cameo Necklace</h3>
+        <div class="product-price">
+          <span class="current-price">90 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Rings/ring 1 .jpg', 'Cocktail Ring', '100 L.E', 'gold','rings')">
+      <div class="product-image">
+        <img src="../images/imgs/Rings/ring 1 .jpg" alt="ring">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title">Cocktail Ring</h3>
+        <div class="product-price">
+          <span class="current-price">100 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Earrings/earrings 1.jpg', 'Barbell Earrings', '100 L.E', 'gold','earrings')">
+      <div class="product-image">
+        <img src="../images/imgs/Earrings/earrings 1.jpg" alt="earrings">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Barbell Earrings</h3>
+        <div class="product-price">
+          <span class="current-price">100 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Earrings/earrings 3.jpg', 'Spike Earrings', '150 L.E', 'gold','earrings')">
+      <div class="product-image">
+        <img src="../images/imgs/Earrings/earrings 3.jpg" alt="earrings">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Spike Earrings</h3>
+        <div class="product-price">
+          <span class="current-price">150 L.E</span>
+        </div>
+      </div>
+    </div>
+    <div class="product-card"
+      onclick="goToDetails('../images/imgs/Bracelet/bracelet 2.jpg', 'Cartier Bracelet', '90 L.E', 'gold','bracelets')">
+      <div class="product-image">
+        <img src="../images/imgs/Bracelet/bracelet 2.jpg" alt="bracelet">
+      </div>
+      <div class="product-details">
+        <h3 class="product-title"> Cartier Bracelet</h3>
+        <div class="product-price">
+          <span class="current-price">90 L.E</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact us -->
+   <section id="contact-us" class="contact">
+        <div class="contact-container">
+          <div class="contact-heading">
+            <p>Need Help ? <span>Contact Us</span></p>
+          </div>
+          <div class="mapImg">
+          <img src="../images/imgs/map.jpg" alt="map">
+          </div>
+          <div class="details">
+            <div class="email">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="email-content">
+                <h3>Email Us</h3>
+                <a>contact@example.com</a>
+              </div>
+            </div>
+            <div class="phone">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="phone-content">
+                <h3>Call Us</h3>
+                <a>+1 5589 55488 55</a>
+              </div>
+            </div>
+          </div>
+         <form action="">
+      <div class="data2">
+        <div class="name">
+          <input type="text" class="contact-input" placeholder="Name">
+        </div>
+        <div class="form_email">
+          <input type="email" class="contact-input" placeholder="Email">
+        </div>
+      </div>
+      <div class="textarea">
+        <textarea cols="130" rows="6" placeholder="Message"></textarea>
+      </div>
+      <div>
+        <button class="contact-btn">Submit</button>
+      </div>
+    </form>
+        </div>
+      </section>
+  <!-- footer -->
+  <footer class="footer">
+    <p>Copy Right 2025 @Divmond Gallery </p>
+    <a href="./Terms&conditins.html">Terms&conditions</a>
+    <a href="./privacy&policy.html">privacy policy</a>
+    <a href="./Return policy.html">Return policy</a>
+    <a href="./Track.html">Track your order</a>
+  </footer>
+  <script src="../js/Category.js"></script>
+  <script src="../js/Products.js"></script>
+  <script src="../js/Main.js"></script>
+</body>
+
+</html>

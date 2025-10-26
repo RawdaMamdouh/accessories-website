@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/Wishlist.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body class="wishlist-page">
+    <!--navbar-->
+    <nav>
+        <!-- 1 LOGO -->
+        <div>
+            <h3>Home</h3>
+        </div>
+        <!-- 2 links -->
+        <div class="links">
+            <a href="./home.html">Home</a>
+            <a href="./cart 1.html">Cart</a>
+            <a href="#">Favorites</a>
+            <a href="./home.html#contact-us" target="_self">Contact Us</a>
+        </div>
+        <div class="navbar-icon">
+            <a href="./cart 1.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cartNumber" id="cartCount">0</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-heart"></i>
+                <span class="favoriteNumber">0</span>
+            </a>
+        </div>
+        <div>
+            <a class="button" href="./login.html">Logout</a>
+        </div>
+    </nav>
+    <div class="titles">
+        <h3>product img</h3>
+        <h3>product name</h3>
+        <h3>product price</h3>
+        <h3>action</h3>
+    </div>
+    <hr>
+    <div class="wishlist-card">
+        <div>
+            <img class="wishlistImg" src="../images/imgs/Rings/ring 3 .jpg" alt="ring">
+        </div>
+        <div class="wishlistName">
+            <p>Halo ring</p>
+        </div>
+        <div class="wishlistPrice">
+            <h4>80egp</h4>
+        </div>
+        <div class="action">
+            <button class="addToCartBtn" onclick="window.location.href='./cart 2.html'">Add to Cart</button>
+            <button class="removeBtn">X</button>
+        </div>
+    </div>
+    <hr>
+    <div class="wishlist-card">
+        <div>
+            <img class="wishlistImg" src="../images/imgs/Earrings/earrings 1.jpg" alt="earrings">
+        </div>
+        <div class="wishlistName">
+            <p>Barbell earings</p>
+        </div>
+        <div class="wishlistPrice">
+            <h4>100egp</h4>
+        </div>
+        <div class="action">
+            <button class="addToCartBtn" onclick="window.location.href='./cart 2.html'">Add to Cart</button>
+            <button class="removeBtn">X</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Copy Right 2025 @Divmond Gallery </p>
+        <a href="./Terms&conditins.html">Terms&conditions</a>
+        <a href="./privacy&policy.html">privacy policy</a>
+        <a href="./Return policy.html">Return policy</a>
+        <a href="./Track.html">Track your order</a>
+    </footer>
+    <script src="../js/Main.js"></script>
+    <script src="../js/Wishlist.js"></script>
+</body>
+
+</html>

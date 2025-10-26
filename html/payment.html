@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessories Checkout</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/Payment.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body class="payment-page">
+  <nav>
+    <!-- 1 LOGO -->
+    <div>
+      <h3>Logo</h3>
+    </div>
+    <!-- 2 links -->
+    <div class="links">
+      <a href="./home.html">Home</a>
+      <a href="./cart 1.html">Cart</a>
+      <a href="./wishlist.html">Favorites</a>
+      <a href="./home.html.#contact-us" target="_self">Contact Us</a>
+    </div>
+    <div class="navbar-icon">
+      <a href="./cart 1.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cartNumber" id="cartCount">0</span>
+      </a>
+      <a href="./wishlist.html">
+        <i class="fa-solid fa-heart"></i>
+        <span class="favoriteNumber">0</span>
+      </a>
+    </div>
+    <div>
+      <a class="button" href="./login.html">Logout</a>
+    </div>
+  </nav>
+  <div class="checkout-box">
+    <h2>Checkout</h2>
+    <div class="summary">
+      <div class="summary-item">Gold Bracelet - 100 EGP</div>
+      <div class="summary-item">Neckless - 200 EGP</div>
+      <div class="total">Total: 300 EGP</div>
+    </div>
+    <form>
+      <label class="label" for="name">Cardholder Name</label>
+      <input class="input" type="text" id="name" placeholder="Name" required>
+      <label class="label" for="card">Card Number</label>
+      <input class="input" type="text" id="card" placeholder="xxxx xxxx xxxx xxxx" required>
+      <div class="row">
+        <div class="field">
+          <label class="label" for="expiry">Expiry Date</label>
+          <input class="input" type="text" id="expiry" placeholder="MM/YY" required>
+        </div>
+        <div class="field">
+          <label class="label" for="cvv">CVV</label>
+          <input class="input" type="text" id="cvv" placeholder="123" required>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">Pay Now</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <p>Copy Right 2025 @Divmond Gallery </p>
+    <a href="./Terms&conditins.html">Terms&conditions</a>
+    <a href="./privacy&policy.html">privacy policy</a>
+    <a href="./Return policy.html">Return policy</a>
+    <a href="./Track.html">Track your order</a>
+  </footer>
+  <script src="../js/Payment.js"></script>
+  <script src="../js/Main.js"></script>
+</body>
+
+</html>
